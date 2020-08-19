@@ -1,0 +1,173 @@
+@import url ("https://fonts.googleapis.com/css?family=Oswald:300");
+body {
+    padding-left: 8em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: Black;
+    background-color: #F5FBEF;
+	margin: 0;
+	
+ 
+}
+    
+  ul.navar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 0em;
+    width: 0em 
+   }
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif 
+margin: 0;}
+  
+      }
+  ul.navbar a {
+    text-decoration: none; }
+  a:link {
+    color: #F6FAFB ;
+font-family:"Oswald";;
+}
+ a:visited {
+    color: #F6FAFB ; }
+  address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted 
+font-family:"Oswald";}
+
+categorias  {
+width: 50 px;
+heigth: auto; overflow: hidden;
+
+margin-top: 1px;
+}
+
+.uno { 
+width: 29px;
+heigth:29px;
+
+float:left;
+
+}
+
+.dos {
+margin-left:12px;
+margin-right:12px;
+}
+.slider{
+ width:95%;
+margin:auto;
+overflow: hidden;
+
+}
+.slider ul{
+display: Flex;
+width: 300em;
+padding: 0;
+
+animation: cambio 20s infinite alternate;	
+
+ }
+.slider li{
+width: 100%;
+list-style: none;
+}
+.slider img{
+ width: 100%;
+}
+@keyframes cambio {
+	0% {margin-left: 0;}	
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100px;}
+	45% {margin-left: -100px;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+ li{
+float: left;
+}
+ a{
+ color: Black;
+ text-decoration: none;
+display: block;
+padding: 15px 25px;
+font-family:"Oswald";
+font-size: 18px;
+
+}
+a{
+background: #27505B ;
+width: 100px;
+heigth: 50px;}
+
+.box{
+   width: 320px;
+   margin: 100px auto;
+   background: #fff;
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+
+.box .heading{
+   background: #3104B4;
+   border-radius: 7px 7px 0px 0px;
+   padding: 10px;
+   color: #fff;
+   text-align: center;
+   font-family: "Rubik";
+}
+
+.faqs{
+   padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+details{
+   background: #f6f6f6;
+   padding: 10px 20px;
+   border-radius: 7px;
+   margin-top: 20px;
+   font-family: "Rubik";
+   font-size: 14px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+details summary{
+   outline: none;
+}
+.men a{
+color: #43060D ;
+ text-decoration: none;
+display: flex;
+padding: 15px 20px;
+font-family:"Oswald";
+font-size: 17px;
+ margin-left: 450px;
+margin-right: 450px;
+background: #C67916
+
+}
+.me iframe{
+margin-left: 250px;
+margin-right: 250px;
